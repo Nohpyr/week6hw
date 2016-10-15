@@ -1,0 +1,4 @@
+OpenCV Error: Assertion failed (contour.checkVector(2) >= 0 && (contour.depth() == CV_32F || contour.depth() == CV_32S)) in contourArea, file /build/opencv-92Ozt2/opencv-2.4.9.1+dfsg/modules/imgproc/src/contours.cpp, line 1904
+terminate called after throwing an instance of 'cv::Exception'
+  what():  /build/opencv-92Ozt2/opencv-2.4.9.1+dfsg/modules/imgproc/src/contours.cpp:1904: error: (-215) contour.checkVector(2) >= 0 && (contour.depth() == CV_32F || contour.depth() == CV_32S) in function contourArea
+
